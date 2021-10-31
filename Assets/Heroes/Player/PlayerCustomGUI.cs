@@ -14,17 +14,70 @@ public class PlayerCustomGUI : MonoBehaviour
     public int leg;
     public int sword;
     PlayerCustom playerCustom;
+    Player player;
 
     PlayerHealthGUI health_bar_GUI;
     Color health_bar_color;
 
+    GameObject cam;
+    CameraControl cameraControl;
+    [SerializeField] GameObject camera_center_position;
+    [SerializeField] GameObject camera_slide_position;
+    [SerializeField] GameObject camera_rotator;
+    float mouse_speed_rotate;
+
+    void SetCameraTarget()
+    {
+        if (isSetup)
+        {
+            cameraControl.target = camera_slide_position;
+        }
+        else
+        {
+            cameraControl.target = camera_center_position;
+        }
+        
+    }
+
     private void Awake()
     {
+        mouse_speed_rotate = 360;
+        cam = GameObject.FindGameObjectWithTag("MainCamera");
+        cameraControl = cam.GetComponent<CameraControl>();
+        SetCameraTarget();
+
         playerCustom = GetComponent<PlayerCustom>();
         playerCustom.isSword = true;
 
         health_bar_GUI = GetComponent<PlayerHealthGUI>();
         health_bar_color = health_bar_GUI.color;
+
+        player = GetComponent<Player>();
+
+
+    }
+
+    private void Update()
+    {
+
+        SetCameraTarget();
+
+        if (Input.GetMouseButton(1))
+        {
+            float mx = Input.GetAxis("Mouse X");
+
+            Vector3 euler = new Vector3(0, mx * mouse_speed_rotate * Time.deltaTime, 0);
+
+            camera_rotator.transform.Rotate(euler);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            isSetup = false;
+            player.enabled = true;
+            Global.SetCursor(false);
+            this.enabled = false;
+        }
 
     }
 
