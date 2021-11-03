@@ -1,0 +1,1235 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.10f1 (b15f561b2cef) revision 11624278'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 32705 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Unity\Editors\2021.1.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GeekBrains/Unity/Projects/K3_Dev3d_1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55211
+Successfully changed project path to: D:/GeekBrains/Unity/Projects/K3_Dev3d_1
+D:/GeekBrains/Unity/Projects/K3_Dev3d_1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 82.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.10f1 (b15f561b2cef)
+[Subsystems] Discovering subsystems at path C:/Unity/Editors/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GeekBrains/Unity/Projects/K3_Dev3d_1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Unity/Editors/2021.1.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/Editors/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity/Editors/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/Editors/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001950 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1370ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (503ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003871 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1252ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2948 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3421.
+Total: 3.077800 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.259300 ms MarkObjects: 2.337200 ms  DeleteObjects: 0.151200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae25adbca23b49303df78b02390e4f6d') in 0.127746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.531573 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f37ec116f8bb02931df73bbeb728c1d') in 0.025778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.799084 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be2e577bb163e09b3d6bba411cfd314') in 0.018177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.250621 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b172bf5fa0f1015ca1ba402347997a') in 0.022532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.013306 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ac7562d09fceb4a427088739527a43') in 0.023327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.442819 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c054f2c3c37d1d3c8abf18e4c5b084dd') in 0.021980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.444204 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52c6890f98a935bf49e43abdc014655') in 0.018609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.872890 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95c07f3bcc5b1e7524052aec7d34488') in 0.021270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.231397 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc65ae1ace58d10117bcb451fca587fa') in 0.019280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.303790 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c63510b19c9c6b46a07e9acfcba7db7') in 0.019900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.471700 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7588051dec86d0b4feeb8d51ac9766c6') in 0.018443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.796227 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f209e8d5f519852870a7ca95d6597908') in 0.018537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.849939 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b410892aac5a51a46379f4d6fe6fe02') in 0.023099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.285317 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b965befbc0d809aff2a27557cc14fa5') in 0.025100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.991790 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c7bd259cd8fb226972f16153e63557') in 0.019411 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003791 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 131.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3431.
+Total: 2.785200 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.250400 ms MarkObjects: 2.218000 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 94.692195 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffab8cb434512b2cb7ab2b6d36e53005') in 0.067774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.775995 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1892bacda9712a7bf3fa8102245c1c1') in 0.019895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.427784 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a8db87be4c864165e5ab1e3b281c4f') in 0.017265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.825572 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6b7df925d0975cdc331fed0952b5ac') in 0.019566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.665392 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5864288a233dd42b14ae2613e27cd225') in 0.019434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.038889 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0954a5e2ca0ddebffdf95edcb5fb8fd9') in 0.019088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.256607 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3d45a3ee3bb3dfb4d71d7441244541') in 0.019161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.614275 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806d0e57c1a0414b9c7e684e3b2850b0') in 0.017675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.336665 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491a759046e70249d20a3f40a5031cc7') in 0.020107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.186156 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90af767fa76c5de45695110c6b60eb7') in 0.021346 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003676 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1097ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 2.776400 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.253800 ms MarkObjects: 2.179300 ms  DeleteObjects: 0.018200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 282.552887 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c33fb9539f25944672e699c81386eea') in 0.071671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.691308 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a42ce772a64363e38c00a7ecf30a82') in 0.020401 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (929ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3439.
+Total: 2.762500 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.284400 ms MarkObjects: 2.134700 ms  DeleteObjects: 0.018200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 688.860103 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb9ca70f411d3f642c906a48fcb8c7e') in 0.074629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.840165 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4550578196d44e71037a3ead9fa3f701') in 0.022375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.126641 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934da25e541387b61222962ebe5056fc') in 0.018493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.784173 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a57f28b75fca2f83ff54339e4e3277') in 0.023345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.961218 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c060c42807d2f1ce1e65764f2fa4d617') in 0.023901 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007032 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5169ms)
+		BeginReloadAssembly (487ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (183ms)
+		EndReloadAssembly (4595ms)
+			LoadAssemblies (365ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3036ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (253ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3443.
+Total: 2.260000 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.124400 ms MarkObjects: 1.843800 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 436.075946 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd715e2cff848332335c1645db5ba7dd') in 0.123630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.130622 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f7afac06eace16d6d93bafa9b1f11c') in 11.136561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1396a712063ef81e555b55a4cb9b7d') in 3.624686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.781812 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8247029a9ec035991bb38c1eb04fe91d') in 12.207459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.149177 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa19d89421eb141ecb21fd2bd284bd16') in 8.337490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.122673 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b370cd574d367c396ea75e9e2f6f6c36') in 6.742319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 208.241251 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02ccb35f1db3bf8b324224cf31edcaf') in 2.281936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.749072 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541e2a4f5d5cd4cb175cde1851bea87c') in 7.237061 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003890 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3447.
+Total: 2.310300 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.131000 ms MarkObjects: 1.922200 ms  DeleteObjects: 0.016200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 427.419148 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22e8546d4196dba64278514e516c7af') in 0.064995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.011267 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82126d352cfeef045d94e6265a0ecf91') in 0.021929 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2564ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2352ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (994ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (264ms)
+			SetupLoadedEditorAssemblies (680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3451.
+Total: 2.661100 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.127500 ms MarkObjects: 2.243000 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97.147603 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6ff2282c2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6ff1fab12 (Unity) ResolveArtifactV2
+0x00007ff6ff212870 (Unity) ImportToObjects
+0x00007ff6ff211b88 (Unity) ImportAsset
+0x00007ff6ff1b026f (Unity) AssetImportWorker::Import
+0x00007ff6ff1d3292 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff6ff259a02 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff6ff25bc70 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6ff25f35e (Unity) asio::io_service::run
+0x00007ff6ff1fb85a (Unity) RunAssetImportWorkerClientV2
+0x00007ff6ff1fb8b0 (Unity) RunAssetImporterV2
+0x00007ff6fecff4a6 (Unity) Application::InitializeProject
+0x00007ff6ff10e9f7 (Unity) WinMain
+0x00007ff700c3c292 (Unity) __scrt_common_main_seh
+0x00007fffc63e7034 (KERNEL32) BaseThreadInitThunk
+0x00007fffc7662651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(-1,00000000000000000000000000000000), Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab from editor
+Resuming Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(-1,00000000000000000000000000000000) -> 00000000000000000000000000000000 (aborted)
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6ff2282c2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6ff1fab12 (Unity) ResolveArtifactV2
+0x00007ff6ff1f2e51 (Unity) ProduceArtifactV2
+0x00007ff6ff18d54e (Unity) AssetDatabase::ProduceArtifact
+0x00007ff6ff178598 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff6ff212b8e (Unity) ImportToObjects
+0x00007ff6ff211b88 (Unity) ImportAsset
+0x00007ff6ff1b026f (Unity) AssetImportWorker::Import
+0x00007ff6ff1d3292 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff6ff259a02 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff6ff25bc70 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6ff25f35e (Unity) asio::io_service::run
+0x00007ff6ff1fb85a (Unity) RunAssetImportWorkerClientV2
+0x00007ff6ff1fb8b0 (Unity) RunAssetImporterV2
+0x00007ff6fecff4a6 (Unity) Application::InitializeProject
+0x00007ff6ff10e9f7 (Unity) WinMain
+0x00007ff700c3c292 (Unity) __scrt_common_main_seh
+0x00007fffc63e7034 (KERNEL32) BaseThreadInitThunk
+0x00007fffc7662651 (ntdll) RtlUserThreadStart
+
+Sub-import of Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(-1,00000000000000000000000000000000), Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab skipped because a previous one failed already
+ -> (artifact id: '7171dc17dd39bfbadca3a147f4547a5f') in 0.381970 seconds 
+  Import took 0.389064 seconds (was aborted).
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e74b80dbf3891b6c1c7d4d59d42c18') in 0.091219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.996001 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab
+  artifactKey: Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_A.prefab using Guid(c9ec0cf2c9954d144bcfcefa4161913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aa42f90705143b098de62d09395768') in 5.802265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.285074 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fc4d23a7f11d390beb6acd3373f2f8') in 3.594619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.752823 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462f685c7767b88cc4e08e5db0f2b3c6') in 9.393153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.238439 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6fd1256c3054d76c43e08579d85bd0') in 6.315367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.679832 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb5a260078eb557ee726d5e1f1cc736') in 10.946192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd51c7a77ce3957630087ce8944fb7') in 6.079125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aecb7182f72da1c2df2c949965aa84f') in 0.021945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.597087 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab3aa5c521392538140a8e45249aac') in 11.639224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab3aa5c521392538140a8e45249aac') in 29.324268 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.055 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2056ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1587ms)
+			LoadAssemblies (292ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (618ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3455.
+Total: 3.890700 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.351900 ms MarkObjects: 3.220100 ms  DeleteObjects: 0.034600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003772 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3458.
+Total: 2.275400 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.125200 ms MarkObjects: 1.892800 ms  DeleteObjects: 0.016400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.209084 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530bde6d704f752a5e09e4cdd0eb442a') in 0.071543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.513184 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f0cd94e34743863150da5dfadb836e') in 0.020582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.448193 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdca30a332aaa912ea12e304286e0d86') in 0.021837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.296612 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed8659c34caf97020226c06771dd95a') in 0.018170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.060520 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49e87a0856de59879c0df8665f10239') in 0.018216 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004184 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1076ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (905ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3462.
+Total: 3.032900 ms (FindLiveObjects: 0.337500 ms CreateObjectMapping: 0.330500 ms MarkObjects: 2.344800 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.785193 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638f8ccf62659779605fb4b19cd079d1') in 0.063370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.046617 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e872e5550e81ebcaf16408726245e19') in 0.022294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.098337 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab
+  artifactKey: Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_B.prefab using Guid(0be8dee6ec685e54080e3e3cb3c0101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef00de776eba2a5b0410717430ff2c8') in 0.180438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.506137 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53df24228022a25632e1c3629004370') in 0.023136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.335981 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d072fcb8832372643c688675a2ee75f') in 0.024416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.185936 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab
+  artifactKey: Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_E.prefab using Guid(5d0e2f3c9733ad24c8a19d2e89ac5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8a9d542738fce01f021889ab7c9a72') in 0.022019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.730783 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdda0209c16da302244048834303cbb5') in 0.021992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.225140 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b62ca26161d71797c217e5f893e563c') in 0.018681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.083621 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f392bee4eded0f52cb68cd854e5fc9c2') in 0.020063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.060825 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cf30a30add303dca0ae450cd697edd') in 0.021270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.028998 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525657211348c7f78d7188b72e3e15bf') in 0.018716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.653856 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320d77d84dce02020a6ef5ecd4013d2e') in 0.018936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.059878 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b00a3a5033b3fdc0899151285109258') in 0.017447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.066689 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b20d423d58cc6a2cff43e30657da5f') in 0.021397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.055909 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6091b6fc689d6a9f7d0b9ab08f320498') in 0.021552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.241825 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8aeb775ab80ed9607d6978c2c3f5b1c') in 0.020539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.274443 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b0245220d12a1307920278c3a110ef') in 0.019643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.102538 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69b707e0ea6a19a2efde89811fe30b3') in 0.024690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.431133 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ff0ff4f27cd7e6e659dd5255ea92c0') in 0.018230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.827025 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8f74ce8fa9bee0b9a869de63c3e721') in 0.018057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.650995 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad094c4f03505ce419de3a4e2bf90e4b') in 0.019457 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005131 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GeekBrains\Unity\Projects\K3_Dev3d_1\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (905ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3466.
+Total: 2.901400 ms (FindLiveObjects: 0.305200 ms CreateObjectMapping: 0.280900 ms MarkObjects: 2.296800 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40524.751685 seconds.
+  path: Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab
+  artifactKey: Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightScene/MyBuilding/Prefabs/Props/Prop_Lamp_C.prefab using Guid(5f0de5ff8858bdd408bd91760c8c70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ac4f64e065ec258652ec8ec671109e') in 0.081187 seconds 
