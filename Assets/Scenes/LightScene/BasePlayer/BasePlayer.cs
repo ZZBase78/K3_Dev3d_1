@@ -8,6 +8,8 @@ public class BasePlayer : MonoBehaviour
     [SerializeField] float speed = 5f;
     [SerializeField] float speed_rotate = 360f;
     [SerializeField] GameObject cam;
+    [SerializeField] GameObject bullet_spawn;
+    [SerializeField] GameObject flash_prefab;
 
     float yRotation = 0f;
 
@@ -41,5 +43,25 @@ public class BasePlayer : MonoBehaviour
 
         cam.transform.localRotation = Quaternion.Euler(yRotation, 0f, 0f);
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            Fire();
+        }
+
+    }
+
+    void Fire()
+    {
+        if (Physics.Raycast(bullet_spawn.transform.position, bullet_spawn.transform.forward, out RaycastHit hit))
+        {
+
+            GameObject go;
+
+            go = Instantiate(flash_prefab, hit.point, Quaternion.identity);
+            Destroy(go, 0.1f);
+
+            go = Instantiate(flash_prefab, bullet_spawn.transform.position + bullet_spawn.transform.forward, Quaternion.identity);
+            Destroy(go, 0.1f);
+        }
     }
 }
