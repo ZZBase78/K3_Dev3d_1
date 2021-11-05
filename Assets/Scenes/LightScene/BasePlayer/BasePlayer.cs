@@ -10,8 +10,17 @@ public class BasePlayer : MonoBehaviour
     [SerializeField] GameObject cam;
     [SerializeField] GameObject bullet_spawn;
     [SerializeField] GameObject flash_prefab;
+    [SerializeField] GameObject fire_shoot_prefab;
+    [SerializeField] Texture cross_fire_texture;
+
 
     float yRotation = 0f;
+
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -62,6 +71,20 @@ public class BasePlayer : MonoBehaviour
 
             go = Instantiate(flash_prefab, bullet_spawn.transform.position + bullet_spawn.transform.forward, Quaternion.identity);
             Destroy(go, 0.1f);
+
+            go = Instantiate(fire_shoot_prefab, bullet_spawn.transform.position, Quaternion.identity);
+            Destroy(go, 1f);
         }
+    }
+
+    private void OnGUI()
+    {
+        GUI.DrawTexture(new Rect(Screen.width / 2 - 16, Screen.height / 2 - 16, 32, 32), cross_fire_texture);
+    }
+
+    private void OnDestroy()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

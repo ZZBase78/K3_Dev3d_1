@@ -157,7 +157,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -243,6 +243,8 @@ MonoBehaviour:
   cam: {fileID: 1003548131268748148}
   bullet_spawn: {fileID: 6094214390730363817}
   flash_prefab: {fileID: 787538137526581331, guid: 42e242a29c0c045499f1817c706bb108, type: 3}
+  fire_shoot_prefab: {fileID: 1263827488020181028, guid: bd49eea9194d1214ca7b629b95e8c45a, type: 3}
+  cross_fire_texture: {fileID: 2800000, guid: d4fae24a3bfbc60449d05b461bfbf9e7, type: 3}
 --- !u!1 &1003548131268748148
 GameObject:
   m_ObjectHideFlags: 0
