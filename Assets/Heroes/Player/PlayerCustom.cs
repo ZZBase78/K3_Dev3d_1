@@ -29,6 +29,30 @@ public class PlayerCustom : MonoBehaviour
         Custom_Changed();
     }
 
+    public void Change_IsSword()
+    {
+        Change_IsSword(isSword);
+    }
+
+    public void Change_IsSword(bool _isSword)
+    {
+
+        isSword = _isSword;
+
+        for (int i = 0; i < male_swords.Length; i++) male_swords[i].SetActive(false);
+        for (int i = 0; i < female_swords.Length; i++) female_swords[i].SetActive(false);
+        if (male)
+        {
+            //male
+            if (isSword) male_swords[sword].SetActive(true);
+        }
+        else
+        {
+            //female
+            if (isSword) female_swords[sword].SetActive(true);
+        }
+    }
+
     public void Custom_Changed()
     {
 
@@ -39,13 +63,11 @@ public class PlayerCustom : MonoBehaviour
         for (int i = 0; i < male_hairs.Length; i++) male_hairs[i].SetActive(false);
         for (int i = 0; i < male_torses.Length; i++) male_torses[i].SetActive(false);
         for (int i = 0; i < male_legs.Length; i++) male_legs[i].SetActive(false);
-        for (int i = 0; i < male_swords.Length; i++) male_swords[i].SetActive(false);
 
         for (int i = 0; i < female_heads.Length; i++) female_heads[i].SetActive(false);
         for (int i = 0; i < female_hairs.Length; i++) female_hairs[i].SetActive(false);
         for (int i = 0; i < female_torses.Length; i++) female_torses[i].SetActive(false);
         for (int i = 0; i < female_legs.Length; i++) female_legs[i].SetActive(false);
-        for (int i = 0; i < female_swords.Length; i++) female_swords[i].SetActive(false);
 
         if (male)
         {
@@ -67,5 +89,7 @@ public class PlayerCustom : MonoBehaviour
             female_legs[leg].SetActive(true);
             if (isSword) female_swords[sword].SetActive(true);
         }
+
+        Change_IsSword(true);
     }
 }

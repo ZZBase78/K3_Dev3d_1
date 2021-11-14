@@ -6,7 +6,7 @@ public class DayNightControl : MonoBehaviour
 {
 
     [SerializeField, Range(0f, 1f)] float time_of_day;
-    [SerializeField] float day_duration = 60f; // 60 секунд на сутки по умолчанию
+    [SerializeField] float day_duration = 3600f; // 3600 секунд на сутки по умолчанию
 
     [SerializeField] GameObject sun;
     Light sun_light;
@@ -24,7 +24,7 @@ public class DayNightControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time_of_day = 0f;
+        time_of_day = 0.2f;
     }
 
     // Update is called once per frame

@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49fa3bf8bdc758747b70ef52f23c1840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time_of_day: 0
-  day_duration: 60
+  time_of_day: 0.2
+  day_duration: 3600
   sun: {fileID: 6827955321559105742}
   sun_light_curve:
     serializedVersion: 2

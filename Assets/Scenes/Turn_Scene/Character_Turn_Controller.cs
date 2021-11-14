@@ -8,17 +8,24 @@ public class Character_Turn_Controller : MonoBehaviour
     [SerializeField] Animator _anim;
     public float speed = 2f;
     public float speed_rotate = 90f;
+    bool is_die;
 
     private void Awake()
     {
         _anim.SetFloat("Forward", -1f);
         _anim.SetFloat("Turn", 0f);
+        is_die = false;
     }
 
     private void Update()
     {
-        float iv = Input.GetAxis("Vertical");
-        float ih = Input.GetAxis("Horizontal");
+        float iv = 0f;
+        float ih = 0f;
+        if (!is_die)
+        {
+            iv = Input.GetAxis("Vertical");
+            ih = Input.GetAxis("Horizontal");
+        }
         bool sprint = Input.GetKey(KeyCode.LeftShift);
 
         float v = iv;
@@ -38,5 +45,11 @@ public class Character_Turn_Controller : MonoBehaviour
         transform.Translate(direction * speed * (sprint ? 2 : 1) * Time.deltaTime);
 
         transform.Rotate(0f, h * speed_rotate * Time.deltaTime, 0f);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _anim.enabled = false;
+            is_die = true;
+        }
     }
 }
